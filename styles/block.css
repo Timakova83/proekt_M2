@@ -1,0 +1,90 @@
+
+
+nav {
+    position: sticky;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: #f8fcff;
+}
+
+nav>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 44px 0 0;
+}
+
+.logo {
+    height: 20px;
+    width: 80px;
+    background: url(/images/logo.svg) transparent no-repeat center;
+    background-size: contain;
+}
+
+.cart {
+    height: 40px;
+    width: 40px;
+    background: url(/images/cart.svg) transparent no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.triggers {
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+
+.triggers > div {
+    max-width: 180px;
+}
+
+.benefit > div {
+    padding: 0 150px;
+}
+
+.benefit-1 {
+    margin-top: 130px;
+}
+
+.benefit-1 > div {
+    padding: 0 270px;
+}
+
+.card2-right > div {
+    padding: 50px 0;
+}
+
+.icon > div {
+    padding:0 140px 0 0;
+}
+
+.icon .card2-icon3 {
+    padding-right: 80px;
+}
+
+.icon .card2-icon4 {
+    padding-right: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+    .benefit > div {
+        padding: 0;
+    }
+    .benefit-1 > div {
+        padding: 0;    
+    }
+    .benefit-1 {
+        margin: 60px 100px 0 100px;
+    }
+}

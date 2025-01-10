@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8fcff;
+}
+
+.wrapper > * {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 100px;
+}
+/*    --Header--   */
+header {
+    margin-top: 30px;
+}
+
+header .conteiner > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header-text {
+    margin: 48px 0 40px;
+}
+
+.top-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.top-button:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/images/button.png) transparent no-repeat center;
+    background-size: contain;
+    content: '';
+    width: 50px;
+    height: 100%;
+    display: block;
+    
+}
+
+.header-left {
+    flex: 3;
+    padding-top: 65px;
+    background: url(/images/shado.png) transparent no-repeat center;
+    background-size: 130%;
+
+    
+}
+
+.header-right {
+    flex: 4;
+    background: url(/images/header-card.png) transparent no-repeat center;
+    background-size: contain;
+}
+
+.triggers-fire {
+    background: url(/images/flat.svg) transparent no-repeat center;
+    height: 35px;
+    width: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.triggers-bold {
+    font-size: 30px;
+}
+
+.triggers-icon {
+    background: url(/images/icon2.svg) transparent no-repeat center;
+    height: 35px;
+    width: 35px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.trigers > div {
+    margin-right: 10px;
+}
+
+.trigers > div:last-child {
+    margin-right: 0;
+}
+
+.triggers .bold,
+.triggers .medium {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.modal-conteiner {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.modal-conteiner.active {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff73;
+}
+
+.modal {
+    border-radius: 20px;
+    padding: 20px;
+   
+    max-width: 500px;
+    max-height: 400px;
+    
+    background: #ffffff;
+    box-shadow: 0 0 50px -10px black;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal h2 {
+    margin-bottom: 20px;
+}
+
+.modal input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 50px;
+}
+
+.modal input[type=tel]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 50px;
+}
+
+.modal input[type=email]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.modal input[type=submit]{
+    border: none;
+    outline: none;
+    height: 50px;
+    box-shadow: inset 0 0 4px -2px black;
+    background: #f8fcff;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+/*  ---Section-1--  */
+
+.benefit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    background: url(/images/bacground-1.jpg) transparent no-repeat center;
+    background-size: contain;
+}
+
+.benefit .bold {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 127%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.benefit .medium {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.02em;
+    display: inline-block;
+}
+
+.benefit-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-1 .bold {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+}
+
+.benefit-1 .medium {
+    display: inline-block;
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    margin-top: 40px;
+}
+
+.benefit-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 170px 110px 170px;
+}
+
+.benefit-2_bg {
+    background: url(/images/benefit.png) transparent no-repeat center;
+    background-size: contain;
+    height: 210px;
+    width: 1200px;
+}
+
+/*  ---Section-2--  */
+
+section .conteiner > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2-left {
+    flex: 4;
+    padding-top: 65px;
+    background: url(/images/card-2.jpg) transparent no-repeat center;
+    background-size: 130%;
+}
+
+.card2-right {
+    flex: 3;
+    padding-left: 100px;
+    width: 400px;
+
+   
+}
+.card2-right .bold {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.card2-right .h2 {    
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 119%;
+    letter-spacing: -0.01em;
+    padding: 0 0 30px 0;
+}
+
+.card2-right .medium {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    padding-right: 160px;
+    
+}
+
+.card2-right .medium2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%
+   
+    
+}
+
+.card2-icon3 {
+    background: url(/images/ikon3.png) transparent no-repeat;
+    height: 30px;
+    
+    background-size: contain;
+    display: inline-block;
+}
+
+.card2-icon4 {
+    background: url(/images/ikon4.png) transparent no-repeat;
+    height: 30px;
+   
+    background-size: contain;
+    display: inline-block;
+}
+
+.card2-right .icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-5 {
+   
+    background: url(/images/Newsletter.svg) transparent no-repeat center;
+    background-size: contain;
+    height: 620px;
+    width: 100%;
+    background-color: #41B3F4;
+
+}
+
+/* --Footer--  */
+
+footer {
+    background-color: #f8fcff;
+    height: 250px;
+}
+
+
+.socseti {
+    background: url(/images/Social_icon.png) transparent no-repeat center;
+    background-size: contain;
+    height: 88px;
+    width: 150px;
+}
+@media screen and (max-width: 1440px) {
+    .conteiner {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+   .benefit {
+        height: 200px;
+    }
+    .benefit .bold {
+        font-size: 21px;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+        
+    .benefit .medium {
+        font-size: 10px;
+        padding: 0 60px 0px 15px;
+    }
+    .benefit-1 .bold {
+        font-size: 60px;
+    }
+
+       
+    
+}
