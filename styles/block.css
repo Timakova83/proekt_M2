@@ -77,6 +77,18 @@ nav>div {
     padding-right: 80px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kopirait {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
     .benefit > div {
         padding: 0;
@@ -86,5 +98,13 @@ nav>div {
     }
     .benefit-1 {
         margin: 60px 100px 0 100px;
+    }
+
+    .card2-right > div {
+        padding: 10px 0;
+    }
+
+    .icon > div {
+        padding:0 40px 0 0;
     }
 }

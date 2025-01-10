@@ -256,10 +256,9 @@ section .conteiner > div {
 .card2-right {
     flex: 3;
     padding-left: 100px;
-    width: 400px;
-
-   
+    width: 400px;  
 }
+
 .card2-right .bold {
     font-weight: 600;
     font-size: 20px;
@@ -295,7 +294,6 @@ section .conteiner > div {
 .card2-icon3 {
     background: url(/images/ikon3.png) transparent no-repeat;
     height: 30px;
-    
     background-size: contain;
     display: inline-block;
 }
@@ -303,7 +301,6 @@ section .conteiner > div {
 .card2-icon4 {
     background: url(/images/ikon4.png) transparent no-repeat;
     height: 30px;
-   
     background-size: contain;
     display: inline-block;
 }
@@ -337,6 +334,17 @@ footer {
     height: 88px;
     width: 150px;
 }
+
+.kopirait {
+    margin-top: 80px;
+}
+
+.line {
+    height: 1px;
+    width: 600px;
+    background: #000;
+}
+
 @media screen and (max-width: 1440px) {
     .conteiner {
         padding: 0 30px;
@@ -346,6 +354,8 @@ footer {
 @media screen and (max-width: 1000px) {
    .benefit {
         height: 200px;
+        background: #52C0FF;
+        margin-right: -35px;
     }
     .benefit .bold {
         font-size: 21px;
@@ -361,6 +371,76 @@ footer {
         font-size: 60px;
     }
 
-       
+    .card2-right {
+        
+        padding-left: 20px;
+        width: 300px;  
+    }
+
+    .card2-right .h2 {    
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        padding: 0 0 10px 0;
+    }
     
+    .card2-right .medium {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        display: inline-block;
+        padding-right: 100px;
+        
+    }
+    
+    .card2-right .medium2 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 180%
+       
+        
+    }
+
+    .line {
+        height: 1px;
+        width: 400px;
+        background: #000;
+    } 
+    .benefit-2 {
+        padding: 0 30px 30px 60px;
+        
+    }
+    
+    .benefit-2_bg {
+        width: 1000px;
+
+    }
+    
+}
+
+@media screen and (max-width: 855px) {
+    .line {
+        height: 1px;
+        width: 100px;
+        background: #000;
+    } 
+
+    section .conteiner > div {
+        display: block;
+        
+    }
+
+    .card2-left {
+       height: 600px;
+    }
+
+    .benefit {
+        background-size: contain;
+    }
+
+    .benefit-2_bg {
+        width: 350px;
+    }
 }
