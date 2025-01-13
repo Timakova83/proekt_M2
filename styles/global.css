@@ -46,7 +46,7 @@ header .conteiner > div {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(/images/button.png) transparent no-repeat center;
+    background-image: url(/images/button.png) transparent no-repeat center;
     background-size: contain;
     content: '';
     width: 50px;
