@@ -43,22 +43,24 @@ header .conteiner > div {
 }
 
 .top-button:before {
+    display: block;
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url(/images/button.png) transparent no-repeat center;
+    background-image: url(/proekt_M2/images/button.png);
     background-size: contain;
     content: '';
     width: 50px;
     height: 100%;
-    display: block;
+    z-index: 2;
+    
     
 }
 
 .header-left {
     flex: 3;
     padding-top: 65px;
-    background: url(/images/shado.png) transparent no-repeat center;
+    background: url(/proekt_M2/images/shado.png) transparent no-repeat center;
     background-size: 130%;
 
     
@@ -66,12 +68,12 @@ header .conteiner > div {
 
 .header-right {
     flex: 4;
-    background: url(/images/header-card.png) transparent no-repeat center;
+    background: url(/proekt_M2/images/header-card.png) transparent no-repeat center;
     background-size: contain;
 }
 
 .triggers-fire {
-    background: url(/images/flat.svg) transparent no-repeat center;
+    background: url(/proekt_M2/images/flat.svg) transparent no-repeat center;
     height: 35px;
     width: 35px;
     background-size: contain;
@@ -83,7 +85,7 @@ header .conteiner > div {
 }
 
 .triggers-icon {
-    background: url(/images/icon2.svg) transparent no-repeat center;
+    background: url(/proekt_M2/images/icon2.svg) transparent no-repeat center;
     height: 35px;
     width: 35px;
     background-size: contain;
@@ -181,7 +183,7 @@ header .conteiner > div {
     justify-content: space-between;
     align-items: center;
     height: 450px;
-    background: url(/images/bacground-1.jpg) transparent no-repeat center;
+    background: url(/proekt_M2/images/bacground-1.jpg) transparent no-repeat center;
     background-size: contain;
 }
 
@@ -233,7 +235,7 @@ header .conteiner > div {
 }
 
 .benefit-2_bg {
-    background: url(/images/benefit.png) transparent no-repeat center;
+    background: url(/proekt_M2/images/benefit.png) transparent no-repeat center;
     background-size: contain;
     height: 210px;
     width: 1200px;
@@ -249,7 +251,7 @@ section .conteiner > div {
 .card2-left {
     flex: 4;
     padding-top: 65px;
-    background: url(/images/card-2.jpg) transparent no-repeat center;
+    background: url(/proekt_M2/images/card-2.jpg) transparent no-repeat center;
     background-size: 130%;
 }
 
@@ -292,14 +294,14 @@ section .conteiner > div {
 }
 
 .card2-icon3 {
-    background: url(/images/ikon3.png) transparent no-repeat;
+    background: url(/proekt_M2/images/ikon3.png) transparent no-repeat;
     height: 30px;
     background-size: contain;
     display: inline-block;
 }
 
 .card2-icon4 {
-    background: url(/images/ikon4.png) transparent no-repeat;
+    background: url(/proekt_M2/images/ikon4.png) transparent no-repeat;
     height: 30px;
     background-size: contain;
     display: inline-block;
@@ -312,7 +314,7 @@ section .conteiner > div {
 
 .card-5 {
    
-    background: url(/images/Newsletter.svg) transparent no-repeat center;
+    background: url(/proekt_M2/images/Newsletter.svg) transparent no-repeat center;
     background-size: contain;
     height: 620px;
     width: 100%;
@@ -329,7 +331,7 @@ footer {
 
 
 .socseti {
-    background: url(/images/Social_icon.png) transparent no-repeat center;
+    background: url(/proekt_M2/images/Social_icon.png) transparent no-repeat center;
     background-size: contain;
     height: 88px;
     width: 150px;
